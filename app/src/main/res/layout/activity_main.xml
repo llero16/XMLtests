@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:orientation="vertical">
+
+
+    <Button
+        android:text="Show Classes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop= "true"
+        android:onClick="showClasses"
+        android:id="@+id/show_button" />
+
+    <Button
+        android:text="Show Stops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_button2"
+        android:onClick="showStops"/>
+
+    <Button
+        android:text="Show Dates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_button3"
+        android:onClick="showDates"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_result"
+        android:textAlignment="center" />
+
+
+    <!--    <RadioButton
+            android:text="RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/economic_radiobutton"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/premium_radiobutton"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prominent_radiobutton"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstClass_radiobutton"
+            android:layout_weight="1" />-->
+
+</LinearLayout>

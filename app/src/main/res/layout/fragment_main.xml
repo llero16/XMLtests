@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+
+    <TextView
+        android:text="Swag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swag"
+        android:layout_below="@+id/yolo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/greeny"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Yolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yolo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+   <!-- <TextView
+        android:text="Cyka Bliat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cyka"
+        android:layout_below="@+id/greeny"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />-->
+     />
+
+</RelativeLayout>
